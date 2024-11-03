@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.2.2"
 gem "rswag"
 
@@ -19,6 +18,9 @@ group :development, :test do
   gem "i18n", "~> 1.14", ">= 1.14.6"
   gem "rubocop-rails-omakase", require: false
   gem "rubocop", "~> 1.68", require: false
+  gem "factory_bot_rails", "~> 6.4", ">= 6.4.4"
+  gem "pry", "~> 0.14.2"
+  gem "byebug", "~> 11.1", ">= 11.1.3"
   # gem "rswag-specs"
 end
 
