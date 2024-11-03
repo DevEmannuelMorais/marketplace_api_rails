@@ -2,6 +2,10 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
+  config.hosts = [ "localhost:3000",
+    "api.marketplace-rails.dev",
+    "api.lvh.me",
+    "api.dev-marketplace.local" ]
 
   # In the development environment your application's code is reloaded any time
   # it changes. This slows down response time but is perfect for development
