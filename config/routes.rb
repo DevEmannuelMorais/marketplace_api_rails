@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   mount Rswag::Ui::Engine => "/api-docs"
 
   namespace :api, defaults: { format: :json }, constraints: { subdomain: "api" }, path: "/" do

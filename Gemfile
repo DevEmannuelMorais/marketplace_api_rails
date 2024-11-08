@@ -22,6 +22,7 @@ group :development, :test do
   gem "factory_bot_rails", "~> 6.4", ">= 6.4.4"
   gem "pry", "~> 0.14.2"
   gem "byebug", "~> 11.1", ">= 11.1.3"
+  gem "shoulda-matchers", "~> 6.4"
   # gem "rswag-specs"
 end
 
